@@ -25,9 +25,11 @@ function toggleNavIcon() {
 function navToggle() {
     const burger = document.querySelector('.navigation__burger');
     const navList = document.querySelector(".navigation__list");
+    const phoneImg = document.querySelector(".header__box__image--phone");
 
     burger.addEventListener('click', () => {
         navList.classList.toggle("show");
+        phoneImg.classList.toggle("hide");
 
         toggleNavIcon();
     });
