@@ -45,10 +45,7 @@
 // ================================================================================================
 @mixin respond($breakpoint) {
     @if $breakpoint == phone {
-        @media only screen and (max-width: 48rem) { @content };
-    }
-    @if $breakpoint == tablet {
-        @media only screen and (max-width: 48rem) { @content };
+        @media only screen and (max-width: 1439px) { @content };
     }
     @if $breakpoint == desktop {
         @media only screen and (min-width: 90rem) { @content };

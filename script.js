@@ -38,7 +38,7 @@ function navToggle() {
 window.onresize = () => {
     const btnNav = document.querySelector(".btn-nav");
 
-    if (window.innerWidth < 768) {
+    if (window.innerWidth < 1440) {
         bgToggle("./images/bg-intro-mobile.svg");
         btnNav.classList.add("hide");
     } else {
@@ -50,7 +50,7 @@ window.onresize = () => {
 window.onload = () => {
     const btnNav = document.querySelector(".btn-nav")
 
-    if (window.innerWidth < 768) {
+    if (window.innerWidth < 1440) {
         bgToggle("./images/bg-intro-mobile.svg");
         btnNav.classList.add("hide");
     } else {
