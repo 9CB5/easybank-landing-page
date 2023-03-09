@@ -18,7 +18,7 @@ npm install
 
 ## Usage
 
-To run the project locally and compile changes, run the following command:
+To run the project locally and compile changes, run the following command
 
 ```bash
 npm run compile:sass
