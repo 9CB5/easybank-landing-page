@@ -1,0 +1,26 @@
+.main-layout {
+    align-items: center;
+    background-color: $colour-very-light-gray;
+    color: $colour-grayish-blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+
+    &__box {
+        max-width: 100%;
+    }
+
+    &--dark {
+        background-color: $colour-light-grayish-blue;
+    }
+
+    &__cards {
+        @include respond(phone) {
+            @include center-global();
+        }
+    }
+
+    @include x-padding;
+}

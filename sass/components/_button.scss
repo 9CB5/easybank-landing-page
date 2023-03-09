@@ -1,0 +1,16 @@
+.btn-gradient {
+    background-image: linear-gradient(to right, $colour-lime-green, $colour-bright-cyan);
+    border-radius: 2rem;
+    border-style: none;
+    color: $colour-white;
+    cursor: pointer;
+    font-weight: bold;
+    padding-bottom: 0.6rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.6rem;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}

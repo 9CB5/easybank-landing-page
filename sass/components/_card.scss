@@ -1,0 +1,54 @@
+.card {
+    width: 15rem;
+
+    &__author {
+        font-size: 0.5rem;
+        padding-bottom: 0.5rem;
+        text-transform: capitalize;
+    }
+
+    &__description {
+        background-color: white;
+        border-radius: 0 0 5px 5px;
+        margin-top: -4px;
+        padding: 1rem;
+    }
+
+    &__heading {
+        color: $dark-blue;
+
+        &--big {
+            font-size: 1.3rem;
+            font-weight: 400;
+            padding-bottom: 2rem;
+            text-transform: capitalize;
+        }
+
+        &--small {
+            cursor: pointer;
+            display: block;
+            font-size: 1rem;
+            font-weight: 400;
+            padding-bottom: 0.5rem !important;
+            text-decoration: none;
+
+            &:hover {
+                color: $colour-lime-green;
+            }
+        }
+    }
+
+    &__icon {
+        padding-bottom: 2rem;
+    }
+
+    &__image {
+        border-radius: 5px 5px 0 0;
+        height: 11em;
+        width: 15rem;
+    }
+
+    &__preview {
+        font-size: 0.8rem;
+    }
+}
