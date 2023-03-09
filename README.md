@@ -2,9 +2,11 @@
 
 Easybank landing page made with SASS using BEM and 7-1 pattern.
 
+![Image preview](design/desktop-design.jpg)
+
 ## Live link
 
-[Insert live link here]
+https://9cb5.github.io/easybank-landing-page/
 
 ## Installation
 
