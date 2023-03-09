@@ -3,7 +3,6 @@
     color: $colour-grayish-blue;
     display: flex;
     justify-content: center;
-    overflow: hidden;
 
     &__box {
         align-items: center;
@@ -47,14 +46,14 @@
             &--bg {
                 left: -112px;
                 position: absolute;
-                overflow: hidden;
+                overflow-x: hidden;
                 top: -261px;
                 z-index: 1;
 
                 @include respond(phone) {
-                    width: 400px;
-                    left: -36px;
-                    top: -65px;
+                    left: -66px;
+                    top: -132px;
+                    width: 450px;
                 }
             }
 
@@ -63,7 +62,7 @@
                 position: absolute;
                 top: -125px;
                 z-index: 1;
-                overflow: hidden;
+                overflow-x: hidden;
 
                 @include respond(phone) {
                     left: 50%;
